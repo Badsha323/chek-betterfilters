@@ -76,7 +76,7 @@ _𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐌𝐞 𝐅𝐨𝐫 𝐊𝐧𝐨𝐰 𝐀𝐛�
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-These are the extra features of ᗩᒍᗩ᙭
+These are the extra features of BETTER FILTER
 
 <b>Commands and Usage:</b>
 ➾ /id - <code>get id of a specifed user.</code>
