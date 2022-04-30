@@ -22,7 +22,7 @@ async def index_files(bot, query):
     if raju == 'reject':
         await query.message.delete()
         await bot.send_message(int(from_user),
-                               f'Your Submission for indexing {chat} has been decliened by our moderators.',
+                               f' Sorry I Only Index Files Document Video Types Files. if Your {chat} Have Posts With Links You Can use This Bot To Add In Inline @Badsha_Inlinebot   .',
                                reply_to_message_id=int(lst_msg_id))
         return
 
@@ -33,7 +33,7 @@ async def index_files(bot, query):
     await query.answer('𝗖𝗵𝗲𝗰𝗸𝗶𝗻𝗴...⏳😜', show_alert=True)
     if int(from_user) not in ADMINS:
         await bot.send_message(int(from_user),
-                               f'Your Submission for indexing {chat} has been accepted by our moderators and will be added soon.',
+                               f'for  Your indexing {chat} Started Saveing Into My Database.',
                                reply_to_message_id=int(lst_msg_id))
     await msg.edit(
         "Starting Indexing",
@@ -116,7 +116,7 @@ async def send_for_index(bot, message):
     await bot.send_message(LOG_CHANNEL,
                            f'#IndexRequest\n\nBy : {message.from_user.mention} (<code>{message.from_user.id}</code>)\nChat ID/ Username - <code> {chat_id}</code>\nLast Message ID - <code>{last_msg_id}</code>\nInviteLink - {link}',
                            reply_markup=reply_markup)
-    await message.reply('ThankYou For the Contribution, Wait For My Moderators to verify the files.')
+    await message.reply('ThankYou For the Contribution, Wait For My Ai to verify the files.')
 
 
 @Client.on_message(filters.command('setskip') & filters.user(ADMINS))
