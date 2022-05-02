@@ -41,7 +41,7 @@ async def save_group(bot, message):
                 InlineKeyboardButton('💠 Ꮐᝪ ᏆᑎᏞᏆᑎᗴ 💠', url='https://t.me/Badsha_Inlinebot')
             ],
             [
-                InlineKeyboardButton('♻️ HΞLᎮ ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('♻️ HΞLP ♻️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup=InlineKeyboardMarkup(buttons)
