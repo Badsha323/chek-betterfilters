@@ -406,7 +406,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ΛBOUT ♻️', callback_data='about')
             ],[
-            InlineKeyboardButton('🔥 ᏞᏆᑎᏦ ᏀᗴᑎᗴᖇᗩᎢᝪᖇ 🔥', url='https://t.me/+plmG4aUd4Gw4MGE1')
+            InlineKeyboardButton('🔥 ᏞᏆᑎᏦ ᏀᗴᑎᗴᖇᗩᎢᝪᖇ 🔥', url='https://t.me/File_To_Link_Autobot')
             ],[
             InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCFjqpS7MmN42sybrG0Vr0NQ')
         ]]
