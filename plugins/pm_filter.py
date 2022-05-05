@@ -437,6 +437,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons= [[
             InlineKeyboardButton('♥️ SԾUᏒCΞ ♥️', url='https://t.me/Badsha_Studios/32')
             ],[
+            InlineKeyboardButton(' ꜰᴀᴄᴇʙᴏᴏᴋ ', url='https://www.facebook.com/badsha.shek.944'),
+            InlinekeyboardButton(' ɪɴsᴛᴀɢʀᴀᴍ ', url='https://www.instagram.com/badsha.shek.944'),
+            InlinekeyboardButton (' ᴛᴇʟᴇɢʀᴀᴍ ', url='https://t.me/kingBadsha3232')
+            ],[
             InlineKeyboardButton('🏠 𝗛𝗼𝗺𝗲 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝗖𝗹𝗼𝘀𝗲 🔐', callback_data='close_data')
         ]]
