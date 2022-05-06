@@ -411,6 +411,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔥 ᏞᏆᑎᏦ ᏀᗴᑎᗴᖇᗩᎢᝪᖇ 🔥', url='https://t.me/File_To_Link_Autobot')
             ],[
             InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCFjqpS7MmN42sybrG0Vr0NQ')
+            ],[
+            InlineKeyboardButton(' ꜰᴀᴄᴇʙᴏᴏᴋ ', url='https://www.facebook.com/badsha.shek.944'),
+            InlineKeyboardButton(' ɪɴsᴛᴀɢʀᴀᴍ ', url='https://www.instagram.com/badsha.shek.944')
+            ],[
+            InlinekeyboardButton (' ʙᴀᴅsʜᴀ sᴛᴜᴅɪᴏs ᴀᴘᴋ ', url='https://www.mediafire.com/file/ve00i68ejju5w4r/_Badsha_Studios_15418459.apk/file')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
