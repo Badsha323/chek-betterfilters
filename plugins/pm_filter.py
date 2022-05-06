@@ -413,8 +413,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton(' ꜰᴀᴄᴇʙᴏᴏᴋ ', url='https://www.facebook.com/badsha.shek.944'),
             InlineKeyboardButton(' ɪɴsᴛᴀɢʀᴀᴍ ', url='https://www.instagram.com/badsha.shek.944')
             ],[
-            InlinekeyboardButton(' ʙᴀᴅsʜᴀ sᴛᴜᴅɪᴏs ᴀᴘᴋ ', url='https://bit.ly/3MHg1qu')
-            ],[
             InlineKeyboardButton('✅ SUBSCᏒIBΞ  ✅', url='https://youtube.com/channel/UCFjqpS7MmN42sybrG0Vr0NQ')
           ]]
         reply_markup = InlineKeyboardMarkup(buttons)
