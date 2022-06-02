@@ -402,7 +402,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton(text = '🔥 Search Here 🔥', switch_inline_query_current_chat = '')
             ],[
-            InlineKeyboardButton('💠 Ꮐᝪ ᏆᑎᏞᏆᑎᗴ 💠', url='https://t.me/Badsha_Inlinebot'),
+            InlineKeyboardButton('💠 Ꮐᝪ ᏆᑎᏞᏆᑎᗴ 💠', url='https://t.me/InlineSearch_MovieBot'),
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+plmG4aUd4Gw4MGE1')
             ],[      
             InlineKeyboardButton('♻️ HΞLᎮ ♻️', callback_data='help'),
