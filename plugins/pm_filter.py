@@ -400,7 +400,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton(text = '🔥 Search Here 🔥', switch_inline_query_@Filestore_32_Bot = '')
+            InlineKeyboardButton(text = '🔥 Search Here 🔥', switch_inline_query_current_chat = '')
             ],[
             InlineKeyboardButton('💠 Ꮐᝪ ᏆᑎᏞᏆᑎᗴ 💠', url='https://t.me/InlineSearch_MovieBot'),
             InlineKeyboardButton('💠 UᎮDΛTΞS 💠', url='https://t.me/+plmG4aUd4Gw4MGE1')
